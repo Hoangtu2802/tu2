@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+haeder{
+	height: 60px; width: 100%;
+}
+.logo{
+	padding-top: 15px;
+}
+.menu{
+	padding-top: 25px
+}
+.menu ul{
+	margin: 0;padding: 0; list-style: none; display: flex;
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none; font-size: 17px;color: #000000;border-radius: 20px;
+}
+.menu ul li a:hover{
+	background-color: darkgreen;color: white;
+}
+.anh{
+	background-image: url("../imga/Bánh 0.jpg");
+	width:100%;
+	background-position: center;
+	min-height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.icon{
+	padding-top: 25px;
+}
+.ml-10{
+	margin-left: 10px;
+}
+.banner{
+	width: 100%;min-height: 500px;
+}
+#feature{
+	width: 100%;min-height: 200px;
+}
+.content{
+	width: 35vw;position: absolute;top:90px;left: 75px;
+}
+button{
+	background-color:#F9D900 ;border: none;border-radius: 15px;padding: 5px 10px;
+}
+button:hover{
+	background-color:#C88D00;cursor: pointer; color: white
+}
+h1{
+	color:#F9D900;
+}
+.text-xanh{
+	color: #F9D900;
+}
+main{
+	width:100%;min-height: 300px;
+}
+.w-25{
+	width: 25%;padding: 15px;float: left;
+}
+.vien{
+	width: 100%;min-height: 200px;border: 1px solid #184E07;border-radius: 13px;text-align: center;padding: 15px;
+}
+.bo-goc{
+	border-radius: 13px;
+}
+.text-do{
+	color: #B80000;
+}
+.w-40{
+	width: 40%;padding: 15px;float: left;
+}
+.w-60{
+	width: 60%;padding: 15px;float: left;
+}
+.form-contol{
+	padding: 8px;margin-bottom: 10px;width: 100%;
+}
+.vien-xam{
+	border: 1px solid gray;width: 100%;min-height: 200px;border-radius:5px;padding: 10px; 
+}
+img{
+	width: 90px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: #F7C800
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 10px 20px;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #F7C800; padding-top: 0; padding-bottom: 0;
+}
+main{
+	min-height: 300px;
+}
+.content{
+	width: 70%; height: 70%;border: solid
+}
+#service a{
+	text-decoration: none;color: #232222;
+}
+#service a:hover{
+	color: #F7C800
+}
